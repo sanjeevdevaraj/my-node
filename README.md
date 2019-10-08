@@ -35,10 +35,10 @@ Middle ware component using Node JS
          - After intstalling open MSSQL Workbench in your local
   
   # Table and Schema Creation 
-        - Use below Schema name 
+        - Use below name for Schema creation 
                 -- mydb
                 
-        - Run the below Query for table creation and insertion.
+        - Execute below Query for table creation and insertion.
                 
         Create Query :
         
@@ -59,6 +59,13 @@ Middle ware component using Node JS
          
           INSERT INTO registration(client_name,country_code,phone_number,email_id,contact_me,home_loan,created_date,updated_date)
           VALUES ('DummyName',91,'123456789','xxx@gmail.com',1,1, now(), now());
+          
+        
+   # Reference Link
+   
+    - https://malcoded.com/posts/angular-backend-express/
+    - https://www.w3schools.com/nodejs/
+    - https://expressjs.com/en/resources/middleware/cors.html
   
   
   
