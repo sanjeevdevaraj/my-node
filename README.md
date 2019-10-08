@@ -39,7 +39,8 @@ Middle ware component using Node JS
                 -- mydb
                 
         - Run the below Query for table creation and insertion.
-        
+                
+                --Create Query
           CREATE TABLE `registration` (
           `enquiry_id` int(11) NOT NULL AUTO_INCREMENT,
           `client_name` varchar(45) DEFAULT NULL,
@@ -53,9 +54,9 @@ Middle ware component using Node JS
           PRIMARY KEY (`enquiry_id`)
           ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='registration table';
   
-  
+               --Insert Query
           INSERT INTO registration(client_name,country_code,phone_number,email_id,contact_me,home_loan,created_date,updated_date)
-          VALUES ('Sanjeev',91,'8344051654','srdsanjeev@gmail.com',1,1, now(), now());
+          VALUES ('DummyName',91,'123456789','xxx@gmail.com',1,1, now(), now());
   
   
   
