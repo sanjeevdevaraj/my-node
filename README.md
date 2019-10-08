@@ -13,9 +13,9 @@ Middle ware component using Node JS
                 -- http://localhost:8000
         
 # End point exposed in node server
-  # GET Request - Get all client details
+  # GET Request - Get client details
       http://localhost:8000/getClientDetails
-  # POST Request - save client details
+  # POST Request - Save client details
       http://localhost:8000/addClientData
 
 # MySql Server 
@@ -40,7 +40,8 @@ Middle ware component using Node JS
                 
         - Run the below Query for table creation and insertion.
                 
-                --Create Query
+        Create Query :
+        
           CREATE TABLE `registration` (
           `enquiry_id` int(11) NOT NULL AUTO_INCREMENT,
           `client_name` varchar(45) DEFAULT NULL,
@@ -54,7 +55,8 @@ Middle ware component using Node JS
           PRIMARY KEY (`enquiry_id`)
           ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='registration table';
   
-               --Insert Query
+        Insert Query :
+         
           INSERT INTO registration(client_name,country_code,phone_number,email_id,contact_me,home_loan,created_date,updated_date)
           VALUES ('DummyName',91,'123456789','xxx@gmail.com',1,1, now(), now());
   
