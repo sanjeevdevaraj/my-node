@@ -2,15 +2,15 @@
 Middle ware component using Node JS
 
 # Run NPM Packages:
---> Download the package
---> Open the corresponding location in your local
---> Open Commend Prompt in the same location
---> execute below command which install dependencies in local system
-        - npm install
---> execute below command which start execute our node package
-        - npm start
---> Now node is up and running in below path:port
-        - http://localhost:8000
+        Download the package
+        Open the corresponding location in your local
+        Open Commend Prompt in the same location
+        execute below command which install dependencies in local system
+                - npm install
+         execute below command which start execute our node package
+                - npm start
+        Now node is up and running in below path:port
+                - http://localhost:8000
         
 # End point exposed in node server
   # GET Request - Get all client details
